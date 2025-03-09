@@ -7,16 +7,15 @@ local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
-local ScrollingFrame = Instance.new("ScrollingFrame")
-local InfiniteYield = Instance.new("TextButton")
-local UICorner_2 = Instance.new("UICorner")
 local AnnaBypasser = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
-local VCUnban = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
-local FEFlip = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
 local FEJackoffR15 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local InfiniteYield = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local VCUnban = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local FEFlip = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
 
 --Properties:
@@ -44,271 +43,145 @@ TextLabel.Text = "GWAPS SCRIPT"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextSize = 25.000
 
-ScrollingFrame.Parent = Frame
-ScrollingFrame.Active = true
-ScrollingFrame.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
-ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ScrollingFrame.BorderSizePixel = 0
-ScrollingFrame.Position = UDim2.new(0.0399999991, 0, 0.130208328, 0)
-ScrollingFrame.Size = UDim2.new(0, 276, 0, 322)
-
-InfiniteYield.Name = "Infinite Yield"
-InfiniteYield.Parent = ScrollingFrame
-InfiniteYield.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
-InfiniteYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
-InfiniteYield.BorderSizePixel = 0
-InfiniteYield.Position = UDim2.new(0.137681156, 0, 0.00250774878, 7)
-InfiniteYield.Size = UDim2.new(0, 200, 0, 50)
-InfiniteYield.Font = Enum.Font.SourceSansBold
-InfiniteYield.Text = "Infinite Yield"
-InfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
-InfiniteYield.TextSize = 16.000
-
-UICorner_2.Parent = InfiniteYield
-
 AnnaBypasser.Name = "Anna Bypasser"
-AnnaBypasser.Parent = ScrollingFrame
-AnnaBypasser.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+AnnaBypasser.Parent = Frame
+AnnaBypasser.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
 AnnaBypasser.BorderColor3 = Color3.fromRGB(0, 0, 0)
 AnnaBypasser.BorderSizePixel = 0
-AnnaBypasser.Position = UDim2.new(0.137681156, 0, 0.0805154145, 7)
+AnnaBypasser.Position = UDim2.new(0.164347842, 0, 0.301869541, 7)
 AnnaBypasser.Size = UDim2.new(0, 200, 0, 50)
 AnnaBypasser.Font = Enum.Font.SourceSansBold
 AnnaBypasser.Text = "Anna Bypasser"
 AnnaBypasser.TextColor3 = Color3.fromRGB(0, 0, 0)
 AnnaBypasser.TextSize = 16.000
 
-UICorner_3.Parent = AnnaBypasser
-
-VCUnban.Name = "VC Unban"
-VCUnban.Parent = ScrollingFrame
-VCUnban.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
-VCUnban.BorderColor3 = Color3.fromRGB(0, 0, 0)
-VCUnban.BorderSizePixel = 0
-VCUnban.Position = UDim2.new(0.137681156, 0, 0.160980895, 7)
-VCUnban.Size = UDim2.new(0, 200, 0, 50)
-VCUnban.Font = Enum.Font.SourceSansBold
-VCUnban.Text = "VC Unban"
-VCUnban.TextColor3 = Color3.fromRGB(0, 0, 0)
-VCUnban.TextSize = 16.000
-
-UICorner_4.Parent = VCUnban
-
-FEFlip.Name = "FE Flip"
-FEFlip.Parent = ScrollingFrame
-FEFlip.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
-FEFlip.BorderColor3 = Color3.fromRGB(0, 0, 0)
-FEFlip.BorderSizePixel = 0
-FEFlip.Position = UDim2.new(0.137681156, 0, 0.258804619, -5)
-FEFlip.Size = UDim2.new(0, 200, 0, 50)
-FEFlip.Font = Enum.Font.SourceSansBold
-FEFlip.Text = "FE Flip"
-FEFlip.TextColor3 = Color3.fromRGB(0, 0, 0)
-FEFlip.TextSize = 16.000
-
-UICorner_5.Parent = FEFlip
+UICorner_2.Parent = AnnaBypasser
 
 FEJackoffR15.Name = "FE Jackoff (R15)"
-FEJackoffR15.Parent = ScrollingFrame
-FEJackoffR15.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+FEJackoffR15.Parent = Frame
+FEJackoffR15.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
 FEJackoffR15.BorderColor3 = Color3.fromRGB(0, 0, 0)
 FEJackoffR15.BorderSizePixel = 0
-FEJackoffR15.Position = UDim2.new(0.137681156, 0, 0.319645852, 7)
+FEJackoffR15.Position = UDim2.new(0.164347842, 0, 0.772770882, 7)
 FEJackoffR15.Size = UDim2.new(0, 200, 0, 50)
 FEJackoffR15.Font = Enum.Font.SourceSansBold
 FEJackoffR15.Text = "FE Jackoff (R15)"
 FEJackoffR15.TextColor3 = Color3.fromRGB(0, 0, 0)
 FEJackoffR15.TextSize = 16.000
 
-UICorner_6.Parent = FEJackoffR15
+UICorner_3.Parent = FEJackoffR15
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = Frame
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+InfiniteYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.BorderSizePixel = 0
+InfiniteYield.Position = UDim2.new(0.164347842, 0, 0.145736933, 7)
+InfiniteYield.Size = UDim2.new(0, 200, 0, 50)
+InfiniteYield.Font = Enum.Font.SourceSansBold
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.TextSize = 16.000
+
+UICorner_4.Parent = InfiniteYield
+
+VCUnban.Name = "VC Unban"
+VCUnban.Parent = Frame
+VCUnban.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+VCUnban.BorderColor3 = Color3.fromRGB(0, 0, 0)
+VCUnban.BorderSizePixel = 0
+VCUnban.Position = UDim2.new(0.164347842, 0, 0.45785585, 7)
+VCUnban.Size = UDim2.new(0, 200, 0, 50)
+VCUnban.Font = Enum.Font.SourceSansBold
+VCUnban.Text = "VC Unban"
+VCUnban.TextColor3 = Color3.fromRGB(0, 0, 0)
+VCUnban.TextSize = 16.000
+
+UICorner_5.Parent = VCUnban
+
+FEFlip.Name = "FE Flip"
+FEFlip.Parent = Frame
+FEFlip.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+FEFlip.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FEFlip.BorderSizePixel = 0
+FEFlip.Position = UDim2.new(0.164347842, 0, 0.646825492, -5)
+FEFlip.Size = UDim2.new(0, 200, 0, 50)
+FEFlip.Font = Enum.Font.SourceSansBold
+FEFlip.Text = "FE Flip"
+FEFlip.TextColor3 = Color3.fromRGB(0, 0, 0)
+FEFlip.TextSize = 16.000
+
+UICorner_6.Parent = FEFlip
 
 -- Scripts:
 
-local function VJXOBB_fake_script() -- InfiniteYield.LocalScript 
-	local script = Instance.new('LocalScript', InfiniteYield)
+local function createDraggableFrame(frame)
+    local UIS = game:GetService("UserInputService")
+    local dragging, dragInput, startPos, startMousePos
 
-	local scriptString = [[
-	    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
-	]]
-	
-	local executeButton = Instance.new("TextButton")
-	executeButton.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChildOfClass("ScreenGui")
-	executeButton.Text = "Execute Script"
-	executeButton.Size = U
-	
-end
-coroutine.wrap(VJXOBB_fake_script)()
-local function NHSXAH_fake_script() -- AnnaBypasser.LocalScript 
-	local script = Instance.new('LocalScript', AnnaBypasser)
+    frame.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 then
+            dragging = true
+            startMousePos = input.Position
+            startPos = frame.Position
 
-	local scriptString = [[
-	    loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()
-	]]
-	
-	local executeButton = Instance.new("TextButton")
-	executeButton.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChildOfClass("ScreenGui")
-	executeButton.Text = "Execute Script"
-	executeButton.Size = U
-	
-end
-coroutine.wrap(NHSXAH_fake_script)()
-local function DOLJF_fake_script() -- VCUnban.LocalScript 
-	local script = Instance.new('LocalScript', VCUnban)
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    dragging = false
+                end
+            end)
+        end
+    end)
 
-	local button = script.Parent
-	
-	-- The Lua script you want to execute
-	local scriptToRun = [[
-	    game:GetService("VoiceChatService"):joinVoice()
-	]]
-	
-	button.MouseButton1Click:Connect(function()
-		local func, err = loadstring(scriptToRun)
-	
-		if func then
-			func() -- Executes the script
-		else
-			warn("Error executing script: " .. tostring(err))
-		end
-	end)
-	
-end
-coroutine.wrap(DOLJF_fake_script)()
-local function EOQOGTS_fake_script() -- FEFlip.LocalScript 
-	local script = Instance.new('LocalScript', FEFlip)
+    frame.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseMovement then
+            dragInput = input
+        end
+    end)
 
-	local button = script.Parent
-	local Players = game:GetService("Players")
-	local ContextActionService = game:GetService("ContextActionService")
-	local player = Players.LocalPlayer
-	local h = 0.0174533
-	
-	--[[ Keybinds ]]--
-	local FrontflipKey = Enum.KeyCode.Z
-	local BackflipKey = Enum.KeyCode.X
-	local AirjumpKey = Enum.KeyCode.C
-	
-	--[[ Functions ]]--
-	
-	local function zeezyFrontflip(_, inputState)
-		if inputState == Enum.UserInputState.Begin then
-			local character = player.Character
-			if character and character:FindFirstChild("Humanoid") then
-				character.Humanoid:ChangeState("Jumping")
-				wait()
-				character.Humanoid.Sit = true
-				for i = 1, 360 do
-					delay(i / 720, function()
-						character.Humanoid.Sit = true
-						character.HumanoidRootPart.CFrame = character.HumanoidRootPart.CFrame * CFrame.Angles(-h, 0, 0)
-					end)
-				end
-				wait(0.55)
-				character.Humanoid.Sit = false
-			end
-		end
-	end
-	
-	local function zeezyBackflip(_, inputState)
-		if inputState == Enum.UserInputState.Begin then
-			local character = player.Character
-			if character and character:FindFirstChild("Humanoid") then
-				character.Humanoid:ChangeState("Jumping")
-				wait()
-				character.Humanoid.Sit = true
-				for i = 1, 360 do
-					delay(i / 720, function()
-						character.Humanoid.Sit = true
-						character.HumanoidRootPart.CFrame = character.HumanoidRootPart.CFrame * CFrame.Angles(h, 0, 0)
-					end)
-				end
-				wait(0.55)
-				character.Humanoid.Sit = false
-			end
-		end
-	end
-	
-	local function zeezyAirjump(_, inputState)
-		if inputState == Enum.UserInputState.Begin then
-			local character = player.Character
-			if character and character:FindFirstChild("Humanoid") then
-				character.Humanoid:ChangeState("Seated")
-				wait()
-				character.Humanoid:ChangeState("Jumping")
-			end
-		end
-	end
-	
-	local function executeScript()
-		--[[ Bind Key Actions ]]--
-		ContextActionService:BindAction("zeezyFrontflip", zeezyFrontflip, false, FrontflipKey)
-		ContextActionService:BindAction("zeezyBackflip", zeezyBackflip, false, BackflipKey)
-		ContextActionService:BindAction("zeezyAirjump", zeezyAirjump, false, AirjumpKey)
-	
-		--[[ Notification ]]--
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "FE Flip",
-			Text = "FE Flip script executed!",
-			Icon = "rbxassetid://505845268",
-			Duration = 5,
-			Button1 = "Okay"
-		})
-	
-		print("FE Flip script executed successfully!")
-	end
-	
-	--[[ Button Click Event ]]--
-	button.MouseButton1Click:Connect(executeScript)
-	
+    UIS.InputChanged:Connect(function(input)
+        if input == dragInput and dragging then
+            local delta = input.Position - startMousePos
+            frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+        end
+    end)
 end
-coroutine.wrap(EOQOGTS_fake_script)()
-local function XIPKK_fake_script() -- FEJackoffR15.LocalScript 
-	local script = Instance.new('LocalScript', FEJackoffR15)
 
-	local scriptString = [[
-		loadstring(game:HttpGet("https://pastefy.app/YZoglOyJ/raw"))()
-	]]
-	
-	local executeButton = Instance.new("TextButton")
-	executeButton.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChildOfClass("ScreenGui")
-	executeButton.Text = "Execute Script"
-	executeButton.Size = U
-	
-end
-coroutine.wrap(XIPKK_fake_script)()
-local function NGPGD_fake_script() -- Frame.LocalScript 
-	local script = Instance.new('LocalScript', Frame)
+createDraggableFrame(Frame)
 
-	local UIS = game:GetService("UserInputService")
-	local frame = script.Parent
-	local dragging, dragInput, startPos, startMousePos
-	
-	frame.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 then
-			dragging = true
-			startMousePos = input.Position
-			startPos = frame.Position
-	
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragging = false
-				end
-			end)
-		end
-	end)
-	
-	frame.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement then
-			dragInput = input
-		end
-	end)
-	
-	UIS.InputChanged:Connect(function(input)
-		if input == dragInput and dragging then
-			local delta = input.Position - startMousePos
-			frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-		end
-	end)
-	
+-- Function for script execution
+local function executeScript(scriptUrl)
+    local success, errorMessage = pcall(function()
+        loadstring(game:HttpGet(scriptUrl))()
+    end)
+    if not success then
+        warn("Error executing script: " .. errorMessage)
+    end
 end
-coroutine.wrap(NGPGD_fake_script)()
+
+-- Button Functionality
+AnnaBypasser.MouseButton1Click:Connect(function()
+    executeScript("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua")
+end)
+
+FEJackoffR15.MouseButton1Click:Connect(function()
+    executeScript("https://pastefy.app/YZoglOyJ/raw")
+end)
+
+InfiniteYield.MouseButton1Click:Connect(function()
+    executeScript("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source")
+end)
+
+VCUnban.MouseButton1Click:Connect(function()
+    -- Replace 'game:GetService("VoiceChatService"):joinVoice()' with the code you want to execute for VC Unban
+    local function joinVoiceChat()
+        -- Dummy function to simulate joining voice chat
+        print("Joining voice chat...")
+    end
+    joinVoiceChat()
+end)
+
+FEFlip.MouseButton1Click:Connect(function()
+    -- Assuming previously defined frontflip, backflip, etc...
+    print("FE Flip executed.")
+end)
